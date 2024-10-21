@@ -22,7 +22,6 @@ namespace Test.Domain.Entidades
             Assert.AreEqual("teste@teste.com", adm.Email);
             Assert.AreEqual("teste", adm.Senha);
             Assert.AreEqual("Adm", adm.Perfil);
-
         }
     }
 }
