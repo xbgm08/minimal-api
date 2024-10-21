@@ -42,8 +42,8 @@ namespace Test.Dominio.Servico
 
 
             // Assert
-            Assert.AreEqual(1, administradorServico.Todos(1).Count());
-            Assert.AreEqual(1, adm.Id);
+            Assert.AreEqual(1, administradorServico?.Todos(1)?.Count());
+            Assert.AreEqual(1, adm?.Id);
         }
 
         [TestMethod]
@@ -63,7 +63,7 @@ namespace Test.Dominio.Servico
 
 
             // Assert
-            Assert.AreEqual(1, admDoBanco.Id);
+            Assert.AreEqual(1, admDoBanco?.Id);
         }
     }
 }
